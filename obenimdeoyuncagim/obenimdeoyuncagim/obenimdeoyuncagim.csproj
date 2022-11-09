@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBDF0594-BC71-4DB5-A2FB-7F12377B0E9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>obenimdeoyuncagim</RootNamespace>
+    <AssemblyName>obenimdeoyuncagim</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSayfafrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfafrm.Designer.cs">
+      <DependentUpon>AnaSayfafrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanetoyuncakiadefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanetoyuncakiadefrm.Designer.cs">
+      <DependentUpon>emanetoyuncakiadefrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanetoyuncaklistelefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanetoyuncaklistelefrm.Designer.cs">
+      <DependentUpon>emanetoyuncaklistelefrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanetoyuncakverfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanetoyuncakverfrm.Designer.cs">
+      <DependentUpon>emanetoyuncakverfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafikfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafikfrm.Designer.cs">
+      <DependentUpon>grafikfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafikfrm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafikfrm2.Designer.cs">
+      <DependentUpon>grafikfrm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafikfrm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafikfrm3.Designer.cs">
+      <DependentUpon>grafikfrm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafikfrm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafikfrm4.Designer.cs">
+      <DependentUpon>grafikfrm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mailgonderfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mailgonderfrm.Designer.cs">
+      <DependentUpon>mailgonderfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OyuncakEklefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OyuncakEklefrm.Designer.cs">
+      <DependentUpon>OyuncakEklefrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oyuncaklistelefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oyuncaklistelefrm.Designer.cs">
+      <DependentUpon>oyuncaklistelefrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OyuncakOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OyuncakOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sıralamafrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sıralamafrm.Designer.cs">
+      <DependentUpon>sıralamafrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UyeEklefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeEklefrm.Designer.cs">
+      <DependentUpon>UyeEklefrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UyeListelemefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeListelemefrm.Designer.cs">
+      <DependentUpon>UyeListelemefrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnaSayfafrm.resx">
+      <DependentUpon>AnaSayfafrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emanetoyuncakiadefrm.resx">
+      <DependentUpon>emanetoyuncakiadefrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emanetoyuncaklistelefrm.resx">
+      <DependentUpon>emanetoyuncaklistelefrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emanetoyuncakverfrm.resx">
+      <DependentUpon>emanetoyuncakverfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafikfrm.resx">
+      <DependentUpon>grafikfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafikfrm2.resx">
+      <DependentUpon>grafikfrm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafikfrm3.resx">
+      <DependentUpon>grafikfrm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafikfrm4.resx">
+      <DependentUpon>grafikfrm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mailgonderfrm.resx">
+      <DependentUpon>mailgonderfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OyuncakEklefrm.resx">
+      <DependentUpon>OyuncakEklefrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oyuncaklistelefrm.resx">
+      <DependentUpon>oyuncaklistelefrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="sıralamafrm.resx">
+      <DependentUpon>sıralamafrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyeEklefrm.resx">
+      <DependentUpon>UyeEklefrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyeListelemefrm.resx">
+      <DependentUpon>UyeListelemefrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OyuncakOtomasyonuDataSet.xsc">
+      <DependentUpon>OyuncakOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OyuncakOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OyuncakOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OyuncakOtomasyonuDataSet.xss">
+      <DependentUpon>OyuncakOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
